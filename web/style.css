@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://use.typekit.net/syi6jmt.css");
+* {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PT Serif", serif; }
+
+p {
+  font-family: pt-sans, sans-serif; }
+
+.navbar {
+  background-color: #fabf38;
+  color: #fefefe; }
+  .navbar a {
+    color: #fefefe; }
+    .navbar a:hover {
+      color: #333333; }
+  .navbar .navbar-brand .logo {
+    width: 18%;
+    display: flex;
+    float: left; }
+  .navbar .navbar-brand h1 {
+    color: #fefefe;
+    font-size: x-large;
+    margin-bottom: -0.1%; }
+  .navbar .navbar-brand h2 {
+    color: #fefefe;
+    font-size: medium;
+    display: table;
+    margin: 0 auto;
+    margin-left: 15%; }
+  .navbar .navbar-toggler {
+    color: #fefefe;
+    background-color: #fefefe; }
+    .navbar .navbar-toggler .navbar-toggler-icon {
+      color: #fabf38; }
+      .navbar .navbar-toggler .navbar-toggler-icon .fa-bars {
+        margin-top: 20%; }
+    .navbar .navbar-toggler:focus {
+      color: #fefefe; }
+
+.footer {
+  background-color: #333333;
+  color: #fefefe; }
+  .footer .row {
+    margin-right: 0; }
+    .footer .row ul {
+      list-style-type: none; }
+      .footer .row ul a {
+        color: #fefefe;
+        text-decoration: none; }
+        .footer .row ul a:hover {
+          color: #fabf38; }
