@@ -1,0 +1,84 @@
+//Ting der gælder for hele siden
+* {
+    margin: $valueZero;
+    padding: $valueZero;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $ptserif;
+}
+
+p {
+    font-family: $ptsans;
+}
+
+//Navigation
+.navbar {
+    background-color: $straw;
+    color: $offwhite;
+    a {
+        color: $offwhite;
+        &:visited {
+            color: $offblack;
+        }
+         &:hover {
+            color: $offblack;
+        }
+
+    .navbar-brand {
+       
+         .logo {
+            width: 18%;
+            display: flex;
+            float: left;
+        }
+        h1 {
+            color: $offwhite;
+            font-size: x-large;
+            margin-bottom: -0.1%;
+        }
+        h2 {
+            color: $offwhite;
+            font-size: medium;
+            display: table;
+            margin: 0 auto;
+            margin-left: 15%;   
+        }
+
+    }
+    .navbar-toggler {
+        color: $offwhite;
+        background-color: $offwhite;
+        .navbar-toggler-icon {
+           color: $straw; 
+           .fa-bars {
+               margin-top: 20%;
+           }
+        }
+        &:focus{
+            color: $offwhite;
+        }
+           
+    }
+   
+    }
+}
+
+//Footer
+.footer {
+    background-color: $offblack;
+    color: $offwhite;
+    .row {
+        margin-right: $valueZero; 
+        ul {
+         list-style-type: $valuenone;
+            a {
+                color: $offwhite;
+                text-decoration: $valuenone;
+                &:hover {
+                color:$straw; 
+                }
+            }
+        }
+    }
+} 
