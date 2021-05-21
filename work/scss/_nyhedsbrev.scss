@@ -1,0 +1,45 @@
+
+//Nyhedsbrev
+#nyhedsbrev_form {
+    .nyhedsbrev_intro {
+        margin-right: $valueZero;
+       h1 {
+        font-size: xx-large;
+        text-align: $placementCenter;
+        margin-top: 5%;
+        } 
+    }
+    .infotekst {
+        .nyhedsbrev_infotekst {
+        text-align: $placementCenter;
+        }
+    }
+
+    form {
+        display: $displayFlex;
+          .email_input {
+        text-align: right;
+        margin-left: 7%;
+                input {
+                    font-family: $ptserif;
+                    padding: $value2Percent;
+                    width: 60%;
+                }
+            }
+        .send_input {
+            text-align: $valueLeft;
+            margin-left: -7%;
+                input {
+                    background-color: $straw;
+                    font-family: $ptserif;
+                    border-top-style: $valueHidden;
+                    border-right-style: $valueHidden;
+                    border-left-style: $valueHidden;
+                    border-bottom-style: $valueHidden;
+                    padding: $value2Percent;
+                    padding-bottom: 2.3%;
+                    width: 40%;  
+                }
+            }
+    }
+}
