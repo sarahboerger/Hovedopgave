@@ -1,0 +1,20 @@
+.index-text {
+    padding-top: 60px;
+}
+
+.button {
+background-color: $straw;
+color: $offwhite;
+padding: 5px;
+border: solid 1px darken( $straw, 10% );
+border-radius: 5px;
+margin: 30px;
+}
+
+.newsletter {
+    height: 300px;
+    background-color: rgb(161, 161, 161);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
