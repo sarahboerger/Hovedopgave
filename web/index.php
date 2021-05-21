@@ -20,7 +20,123 @@
 <?php include("inc/header.html");?>
 
 <!--Content på siden -->
-<span><h1>Udfyld forside her</h1></span>
+
+
+<!--Header slider-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/Enggaarden_Rideskole_slider1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/Enggaarden_Rideskole_slider2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/Enggaarden_Rideskole_slider3.jpg" alt="Third slide">
+    </div>
+  </div>
+</div>
+
+<!--Om skolen + billeder-->
+<div class="container">
+  <div class="row">
+    <div class="col index-text col-lg-6">
+      <h3>Sikker start på ridekarrieren</h3>
+      <p>For os her på Enggaarden er det vigtigt at alle får en sikker start på deres ridekarriere. Vi prioritere den sikre grundridning højt, inden man får lov til at ride selv, samt at man lærer omgangen med hest. </p>
+    </div>
+
+    <div class="col img-fluid col-lg-6">
+      <img src="img/enggaarden_rideskole_standin.png" alt="">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col img-fluid col-lg-6">
+      <img src="img/enggaarden_rideskole_standin.png" alt="">
+    </div>
+
+    <div class="col index-text col-lg-6">
+      <h3>Hesten er en makker, ikke et instrument</h3>
+      <p>Vi vægter forholdet til hest højt. Hos os er hesten ikke bare et transportmiddel der skal få os fra A til B eller et instrument der skal gøre hvad vi beder den om, men en makker, man samarbejder med for at opnå mål i vores ridning. </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col index-text col-lg-6">
+      <h3>Altid et smil på læben</h3>
+      <p>Hos Enggaarden er vi lidt af en familie. Både vores praktikanter, elever, ansatte og opstaldere er en del af vores gode samarbejde, der gør at Enggaarden er et godt sted at være for alle. Nye, samt gamle elever, bliver altid modtaget med et smil.  </p>
+    </div>
+
+    <div class="col img-fluid col-lg-6">
+      <img src="img/enggaarden_rideskole_standin.png" alt="">
+    </div>
+  </div>
+</div>
+
+
+<!--Seneste nye-->
+<div class="container">
+    <div class="col">
+        <img src="img/enggaarden_news1.jpg" alt="">
+        <h4>Vores seneste vinder</h4>
+        <p>i fredags vandt pigerne på enggaarden rideskole første præmierne.</p>
+    </div>
+
+</div>
+
+
+<!--Video-->
+<div class="container">
+<div class="row">
+    <div class="col index-text col-lg-6">
+      <h3>Enggaarden Skolen for Akademisk Ridekunst</h3>
+      <p>Velkommen til Enggaarden. 
+Vores rideskole blev stiftet tilbage i 1990, hvor vi hovedsageligt red dressur og spring. I starten af 2000 skiftede vi til Akademisk Ridekunst med ønsket om, at hesten skulle være en makker og ikke bare et instrument. Vi har undervist i det siden. 
+Vi ligger i det naturskønne område nær Ruslands Bakker, med 20 minutters ridt til Klosterris Hegn og 30-40 minutters ridt til Dronningmølle Strand. Vi har eget ridehus samt udendørs ridebane. Vi tilbyder ridelejre og kurser med Bent Branderup.
+  </p>
+    </div>
+
+    <div class="col col-lg-6">
+    <video width="640" height="480" controls>
+  <source src="video/Enggaarden_intro.mp4" type="video/mp4">
+</video>
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container newsletter">
+<!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://gmail.us6.list-manage.com/subscribe/post?u=e0118f91a495cacee36736e3a&amp;id=8d97063144" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address </label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e0118f91a495cacee36736e3a_8d97063144" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+</div>
+
+
 
 
 <!--Footer include. Footer fil ligger under inc -->
