@@ -22,6 +22,89 @@
 <!--Content på siden -->
 <span><h1>Udfyld side om heste her</h1></span>
 
+<div class="container horse_content">
+   
+    <div class="horsebox">
+            <div class="row">
+                <div class="col text-center">
+                <h2>Heste</h2>
+                <p>Enggaarden rideskole har pu nuværende tidspunkt fire rideheste</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col fille"></div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_hest_dusinus.png" alt="enggarden skolen for akademisk ridekust, rideskole hest dusinus">
+                </div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_hest_maici.png" alt="enggarden skolen for akademisk ridekust, rideskole hest Maici"> 
+                </div>
+                <div class="col filler"></div>
+            </div>
+            <div class="row">
+            <div class="col filler"></div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_hest_regazza.png" alt="enggarden skolen for akademisk ridekust, rideskole hest Regazza">
+                </div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_hest_tonka.png" alt="enggarden skolen for akademisk ridekust, rideskole hest Tonka"> 
+                </div>
+                <div class="col filler"></div>
+            </div>
+    </div>
+
+
+    <div class="ponybox">
+            <div class="row">
+                <div class="col text-center">
+                <h2>Ponyer</h2>
+                <p>Enggaarden rideskole har pu nuværende tidspunkt syv ponyer</p>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col filler"></div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_pony_jasmin.png" alt="enggarden skolen for akademisk ridekust, rideskole pony Jasmin">
+                </div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_pony_kalida.png" alt="enggarden skolen for akademisk ridekust, rideskole pony Kalida">
+                </div>
+                <div class="col filler"></div>
+            </div>
+            <div class="row">
+            <div class="col filler"></div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_pony_kejser.png" alt="enggarden skolen for akademisk ridekust, rideskole pony Kejser">
+                </div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_pony_komet.png" alt="enggarden skolen for akademisk ridekust, rideskole pony Komet"> 
+                </div>
+                <div class="col filler"></div>
+            </div>
+            <div class="row">
+            <div class="col filler"></div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_pony_prinsessen.png" alt="enggarden skolen for akademisk ridekust, rideskole pony Prinsessen">
+                </div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_pony_Speider.png" alt="enggarden skolen for akademisk ridekust, rideskole pony speider"> 
+                </div>
+                <div class="col filler"></div>
+            </div>
+            <div class="row">
+            <div class="col filler"></div>
+                <div class="col polaroid">
+                <img src="img/enggaarden_rideskole_pony_zippie.png" alt="enggarden skolen for akademisk ridekust, rideskole pony Miss Zippie">
+                </div>
+                <div class="col">
+                <!-- <img src="img/enggaarden_rideskole_pony_.png" alt="enggarden skolen for akademisk ridekust, rideskole pony xxx"> -->
+                </div>
+                <div class="col filler"></div>
+            </div>
+    </div>
+
+</div>
+
 
 <!--Footer include. Footer fil ligger under inc -->
 <?php include 'inc/footer.html';?>

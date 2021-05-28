@@ -23,6 +23,48 @@
 <span><h1>Udfyld side om teamet her</h1></span>
 
 
+
+
+<div class="container team-content">
+
+<div class="row">
+    <div class="col img-fluid col-lg-6">
+      <img src="img/enggaarden_sandra_polaroid.png" alt="">
+    </div>
+
+    <div class="col team-text col-lg-6">
+      <h3>Hesten er en makker, ikke et instrument</h3>
+      <p>Vi vægter forholdet til hest højt. Hos os er hesten ikke bare et transportmiddel der skal få os fra A til B eller et instrument der skal gøre hvad vi beder den om, men en makker, man samarbejder med for at opnå mål i vores ridning. </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col img-fluid col-lg-6">
+      <img src="img/enggaarden_sandra_polaroid.png" alt="">
+    </div>
+
+    <div class="col team-text col-lg-6">
+      <h3>Hesten er en makker, ikke et instrument</h3>
+      <p>Vi vægter forholdet til hest højt. Hos os er hesten ikke bare et transportmiddel der skal få os fra A til B eller et instrument der skal gøre hvad vi beder den om, men en makker, man samarbejder med for at opnå mål i vores ridning. </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col img-fluid col-lg-6">
+      <img src="img/enggaarden_sandra_polaroid.png" alt="">
+    </div>
+
+    <div class="col  team-text col-lg-6">
+      <h3>Hesten er en makker, ikke et instrument</h3>
+      <p>Vi vægter forholdet til hest højt. Hos os er hesten ikke bare et transportmiddel der skal få os fra A til B eller et instrument der skal gøre hvad vi beder den om, men en makker, man samarbejder med for at opnå mål i vores ridning. </p>
+    </div>
+  </div>
+
+</div>
+
+
+
+
 <!--Footer include. Footer fil ligger under inc -->
 <?php include 'inc/footer.html';?>
 </body>
