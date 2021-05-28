@@ -97,7 +97,7 @@
                 <img src="img/enggaarden_rideskole_pony_zippie.png" alt="enggarden skolen for akademisk ridekust, rideskole pony Miss Zippie">
                 </div>
                 <div class="col">
-                <!-- <img src="img/enggaarden_rideskole_pony_.png" alt="enggarden skolen for akademisk ridekust, rideskole pony xxx"> -->
+                <img src="img/enggaarden_rideskole_pony_chestnut.png" alt="enggarden skolen for akademisk ridekust, rideskole pony chestnut">
                 </div>
                 <div class="col filler"></div>
             </div>

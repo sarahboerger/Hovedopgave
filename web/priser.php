@@ -20,7 +20,36 @@
 <?php include("inc/header.html");?>
 
 <!--Content på siden -->
-<span><h1>Udfyld side om priser her</h1></span>
+<div class="price center">
+    <h1>Priser</h1>
+<p>Her hos enggaarden tilbyder vi opstaldning, træning af hest, rideskole hold, eneundervisning og ridelejre. Udover det, får vi besøg af Bent Branderup to gange om året (hovedsageligt April og August). <br> <br>
+</p>
+
+<h3>Holdundervisning:</h3>
+<p>
+Over 18: 600,- <br>
+<br>
+Under 18: 550,- <br> <br>
+</p>
+
+<h3>Enetimer:</h3>
+<p>
+1 time: 650,- <br>
+<br>
+½ time: 350,- <br> <br>
+</p>
+
+
+<h3>Ridelejr:</h3>
+<p>1 uge - mandag til lørdag: 3500,- <br> <br></p>
+
+
+<h3>Opstaldning:</h3>
+<p>4000,- pr. måned</p>
+</div>
+
+
+
 
 
 <!--Footer include. Footer fil ligger under inc -->

@@ -45,67 +45,56 @@
 <!--Om skolen + billeder-->
 <div class="container">
   <div class="row">
-    <div class="col index-text col-lg-6">
+    <div class="col index-text col-lg-5">
       <h3>Sikker start på ridekarrieren</h3>
       <p>For os her på Enggaarden er det vigtigt at alle får en sikker start på deres ridekarriere. Vi prioritere den sikre grundridning højt, inden man får lov til at ride selv, samt at man lærer omgangen med hest. </p>
     </div>
 
-    <div class="col img-fluid col-lg-6">
-      <img src="img/enggaarden_rideskole_standin.png" alt="">
-    </div>
+    <div class="col"></div>
+      <img class="col-lg-6" src="img/enggaarden_rideskole_standin.png" alt="">
+    
   </div>
 
   <div class="row">
-    <div class="col img-fluid col-lg-6">
-      <img src="img/enggaarden_rideskole_standin.png" alt="">
-    </div>
-
-    <div class="col index-text col-lg-6">
+      <img class="col-lg-6" src="img/enggaarden_rideskole_standin.png" alt="">
+      <div class="col"></div>
+    <div class="col index-text col-lg-5">
       <h3>Hesten er en makker, ikke et instrument</h3>
       <p>Vi vægter forholdet til hest højt. Hos os er hesten ikke bare et transportmiddel der skal få os fra A til B eller et instrument der skal gøre hvad vi beder den om, men en makker, man samarbejder med for at opnå mål i vores ridning. </p>
     </div>
   </div>
 
   <div class="row">
-    <div class="col index-text col-lg-6">
+    <div class="col index-text col-lg-5">
       <h3>Altid et smil på læben</h3>
       <p>Hos Enggaarden er vi lidt af en familie. Både vores praktikanter, elever, ansatte og opstaldere er en del af vores gode samarbejde, der gør at Enggaarden er et godt sted at være for alle. Nye, samt gamle elever, bliver altid modtaget med et smil.  </p>
     </div>
-
-    <div class="col img-fluid col-lg-6">
-      <img src="img/enggaarden_rideskole_standin.png" alt="">
-    </div>
+    <div class="col"></div>
+      <img class="col-lg-6" src="img/enggaarden_rideskole_standin.png" alt="">
+    
   </div>
 </div>
 
-
-<!--Seneste nye-->
-<div class="container">
-    <div class="col">
-        <img src="img/enggaarden_news1.jpg" alt="">
-        <h4>Vores seneste vinder</h4>
-        <p>i fredags vandt pigerne på enggaarden rideskole første præmierne.</p>
-    </div>
-
-</div>
 
 
 <!--Video-->
 <div class="container">
 <div class="row">
-    <div class="col index-text col-lg-6">
-      <h3>Enggaarden Skolen for Akademisk Ridekunst</h3>
-      <p>Velkommen til Enggaarden. 
-Vores rideskole blev stiftet tilbage i 1990, hvor vi hovedsageligt red dressur og spring. I starten af 2000 skiftede vi til Akademisk Ridekunst med ønsket om, at hesten skulle være en makker og ikke bare et instrument. Vi har undervist i det siden. 
-Vi ligger i det naturskønne område nær Ruslands Bakker, med 20 minutters ridt til Klosterris Hegn og 30-40 minutters ridt til Dronningmølle Strand. Vi har eget ridehus samt udendørs ridebane. Vi tilbyder ridelejre og kurser med Bent Branderup.
-  </p>
-    </div>
+  
 
     <div class="col col-lg-6">
     <video width="640" height="480" controls>
   <source src="video/Enggaarden_intro.mp4" type="video/mp4">
 </video>
 </div>
+<div class="col"></div>
+<div class="col index-text col-md-5">
+      <h3>Enggaarden Skolen for Akademisk Ridekunst</h3>
+      <p>Velkommen til Enggaarden. 
+Vores rideskole blev stiftet tilbage i 1990, hvor vi hovedsageligt red dressur og spring. I starten af 2000 skiftede vi til Akademisk Ridekunst med ønsket om, at hesten skulle være en makker og ikke bare et instrument. Vi har undervist i det siden. 
+Vi ligger i det naturskønne område nær Ruslands Bakker, med 20 minutters ridt til Klosterris Hegn og 30-40 minutters ridt til Dronningmølle Strand. Vi har eget ridehus samt udendørs ridebane. Vi tilbyder ridelejre og kurser med Bent Branderup.
+  </p>
+    </div>
     </div>
   </div>
 </div>
@@ -113,13 +102,18 @@ Vi ligger i det naturskønne område nær Ruslands Bakker, med 20 minutters ridt
 
 
 
-<div class="container newsletter">
+<div class="fluid-container newsletter">
+  
+
 <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="https://gmail.us6.list-manage.com/subscribe/post?u=e0118f91a495cacee36736e3a&amp;id=8d97063144" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	
 <div class="mc-field-group">
+<div class="velkomst center">
+<h2>Tildmeld dig vores nyhedbrev, <br> og hold dig opdateret med det seneste nye fra Enggaarden</h2>
+</div>
 	<label for="mce-EMAIL">Email Address </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
