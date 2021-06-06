@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <!-- class="h-100" = Vi giver besked på at den skal være 100% i størrelse-->
 <html class="h-100" lang="da">
@@ -23,12 +26,11 @@
 
 <!--Content på siden -->
 <?php
-
 session_start();
        if( !empty($_SESSION['logged_in'] ) ){
         include("inc/profilheader.html");
         }
-    
+
 ?>
 
 <div class="container-fluid">
@@ -84,7 +86,7 @@ session_start();
      <div class="col-lg-2"></div>
 
     <div class="col-lg-4">
-      <img class="w-100" src="img/enggaarden_sandra_polaroid.png" alt="Enggaarden Sandra Larsson">
+      <img class="w-100" src="img/Enggaarden_Sandra_Polaroid.png" alt="Enggaarden Sandra Larsson">
     </div>
 
     <div class="col-lg-4">

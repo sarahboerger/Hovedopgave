@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <!-- class="h-100" = Vi giver besked på at den skal være 100% i størrelse-->
 <html class="h-100" lang="da">

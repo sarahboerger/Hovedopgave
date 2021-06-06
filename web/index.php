@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <!-- class="h-100" = Vi giver besked på at den skal være 100% i størrelse-->
 <html class="h-100" lang="da">
@@ -84,7 +87,7 @@ session_start();
             <p>Hos Enggaarden er vi lidt af en familie. Både vores praktikanter, elever, ansatte og opstaldere er en del af vores gode samarbejde, der gør at Enggaarden er et godt sted at være for alle. Nye, samt gamle elever, bliver altid modtaget med et smil.  </p>
           </div>
           <div class="col-lg-5">
-            <img class="w-100" src="img/enggaarden_rideskole_forside_billede1.png" alt="Hos Enggaarden Skolen for Akademisk Ridekunst er vi som en familie">
+                <img class="w-100" src="img/enggaarden_rideskole_forside_billede1.png" alt="Hos Enggaarden Skolen for Akademisk Ridekunst er vi som en familie">
           </div>
            <div class="col-lg-1"></div> 
         </div>

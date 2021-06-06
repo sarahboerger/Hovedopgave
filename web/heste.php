@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <!-- class="h-100" = Vi giver besked på at den skal være 100% i størrelse-->
 <html class="h-100" lang="da">
@@ -109,7 +112,7 @@ session_start();
                 <img class="w-100" src="img/enggaarden_rideskole_pony_prinsessen.png" alt="enggarden skolen for akademisk ridekust, rideskole pony Prinsessen">
                 </div>
                 <div class="col-12 col-lg-3 horse-picture">
-                <img class="w-100" src="img/enggaarden_rideskole_pony_Speider.png" alt="enggarden skolen for akademisk ridekust, rideskole pony speider"> 
+                <img class="w-100" src="img/enggaarden_rideskole_pony_speider.png" alt="enggarden skolen for akademisk ridekust, rideskole pony speider"> 
                 </div>
                  <div class="col-lg-3"></div> 
             </div>

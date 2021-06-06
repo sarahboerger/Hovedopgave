@@ -50,8 +50,8 @@ session_start();
          Følgende indeholder en strigleguide. For at se indholdet på denne side skal du betale 15,-. Du kan gå til betaling ved at trykke på "Gå til betaling".
       </div>
       <div class="modal-footer">
-        <button type="button" class="tilbageknap"> <a href="videoemner.php">Gå tilbage til videoer</a></button>
-        <button type="button" class="betalingsknap"> <a href="betaling-strigl.php"> Gå til betaling</a></button>
+       <a href="videoemner.php" class="tilbageknap">Gå tilbage til videoer</a>
+                    <a href="betaling-blod.php" class="betalingsknap">Gå til betaling</a>
       </div>
     </div>
   </div>

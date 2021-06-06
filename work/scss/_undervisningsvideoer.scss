@@ -10,18 +10,15 @@
     .tilbageknap {
         background-color: $darkGrey;
         @include payment-btn;
-        a {
             color: $straw;
             text-decoration: $valuenone;
-        }
     }
 
     .betalingsknap {
         background-color: $straw;
         @include payment-btn;
-        a {
             color: $offblack;
             text-decoration: $valuenone;
-        }
+
     }
 }

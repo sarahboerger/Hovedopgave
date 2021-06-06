@@ -128,18 +128,16 @@ p {
   background-color: #444444;
   padding: 1%;
   border-radius: 15px;
-  border-style: none; }
-  .modal .tilbageknap a {
-    color: #fabf38;
-    text-decoration: none; }
+  border-style: none;
+  color: #fabf38;
+  text-decoration: none; }
 .modal .betalingsknap {
   background-color: #fabf38;
   padding: 1%;
   border-radius: 15px;
-  border-style: none; }
-  .modal .betalingsknap a {
-    color: #333333;
-    text-decoration: none; }
+  border-style: none;
+  color: #333333;
+  text-decoration: none; }
 
 .backToForum {
   margin-bottom: 2%; }

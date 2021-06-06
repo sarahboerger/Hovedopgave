@@ -89,8 +89,7 @@ session_start();
             <h4>Gjorden</h4>
             For at sadlen skal sidde fast på ryggen af sadlen, har man et redskab der kaldes for en gjord. Hos os starter vi med at spænde gjorden let, og spænder den så ydeligere når vi er i ridehuset og skal til at påbegynde ridningen.
             <br>
-            Hvor meget du skal spænde gjorden kommer an på hvor kort den er, hvor lang den er samt om hesten har gjordkrampe. Det du skal tænke på når du spænder gjord er at du hele tiden kan få en hånd imellem maven på hesten og gjorden. Hvis hesten har gjordkrampe, spændes gjorden kun lidt, et eller to huller indtil du er i ridehuset.   
-        </p>
+           <p> Hvor meget du skal spænde gjorden kommer an på hvor kort den er, hvor lang den er samt om hesten har gjordkrampe. Det du skal tænke på når du spænder gjord er at du hele tiden kan få en hånd imellem maven på hesten og gjorden. Hvis hesten har gjordkrampe, spændes gjorden kun lidt, et eller to huller indtil du er i ridehuset. </p>
         <br>
            <h3>Påføring af hovedtøjet</h3>
         <p>Når du tager hovedtøj på er det vigtigt hesten er spændt fast gennem forløbet. Ved at den er det, er vi sikre på at den ikke går nogle veje.
@@ -102,8 +101,7 @@ session_start();
         Hvis hesten ikke selv åbner munden, kan du med din tommelfinger på venstre hånd stikke den ind og kilde hesten i mundvigen. Hesten har ingen tænder der hvor bidet ligger. Når bidet er i munden, tager du roligt hestens ene øre fremad, og kommer nakkestykket over, og derefter tager du det andet øre fremad. <br> Hvis der er næsebånd på, kommer den indenfor kæbestykkerne så næsebåndet ikke presser på. <br>
         Når det er gjort kan vi begynde at spænde hovedtøjet. Når du spænder hovedtøjet er det nedefra og op. Så du starter med næsebåndet, derefter kæberemmen. Der skal ca. være en tommelfinger mellem hesten og næsebåndet. Og der skal være nok plads ved kæberemmen til at hesten kan åbne munden.
         <br>
-        Du har nu sadlet hesten op.
-        </p>
+     <P>   Du har nu sadlet hesten op.</p>
 
         <h2>Nedsadling af hesten</h2>
         <h3>Aftagning af hovedtøj</h3>
@@ -129,7 +127,7 @@ session_start();
         <br>
         <h3>Aftagning af sadlen</h3>
         <p>Når du tager sadlen af hesten, er der ikke så meget at gøre. Hos Enggaarden, spænder vi gjorden op i begge sider og lægger den oven på sadlen.   <br>
-        Når du har spændt gjorden op tager du fat foran sadlen, og på saddelryggen og tager den roligt af og hænger den på plads.
+        Når du har spændt gjorden op tager du fat foran sadlen, og på saddelryggen og tager den roligt af og hænger den på plads. </p>
         <br>
         Hesten er afsadlet.
     </p>

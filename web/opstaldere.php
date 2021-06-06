@@ -49,7 +49,7 @@ session_start();
 <form action="opstaldere.php" method="post">
     <?php
          //når man skal lave en connection til en database server, bruger man $conn, og så informationen om databasen, som kodeord og bruger, port, lokalhost
-        $conn = new mysqli('localhost:3306', 'admin', 'admin', 'eng');
+        $conn = new mysqli('sarasandreasen.dk.mysql:3306', 'sarasandreasen_dkeng', 'engrideskole123', 'sarasandreasen_dkeng');
     ?>
 
 
