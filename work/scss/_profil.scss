@@ -1,0 +1,9 @@
+ #secondarynav {
+    background-color: $offblack;
+    a {
+        color: $straw;
+        &:hover {
+            color: $offwhite;
+        }
+    }
+ }

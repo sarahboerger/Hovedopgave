@@ -1,15 +1,9 @@
-.horse_content{
-    width: 80%;
-    .polaroid{
-        display: flex;
-        justify-content: center;
-    }
+.horse-row {
+    text-align: $placementCenter;
 }
 
 .team-content {
-    width: 80%;
-   .team-text{
-       padding-top: 120px;
-   }
-    
+   h3{
+       padding-top: 13%;
+   } 
 }

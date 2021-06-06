@@ -1,0 +1,20 @@
+#formLogin {
+    display: $displayBlock;
+    @include margin-zero-auto;
+    text-align: $placementCenter;
+    margin-top: $value2Percent;
+    .signInButton {
+        font-family: $ptsans;
+        background-color: $straw;
+        padding: $padding5Percent;
+        border-top-style: $valueHidden;
+        border-right-style: $valueHidden;
+        border-left-style: $valueHidden;
+        border-bottom-style: $valueHidden;
+        border-radius: $value3Percent;
+        &:hover {
+            background-color: $offblack;
+            color: $straw;
+        }
+    }
+}

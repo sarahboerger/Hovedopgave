@@ -1,0 +1,27 @@
+.blodtyper-beskrivelse {
+    margin:$topBottom5Percent;
+}
+
+.titel {
+    margin: 3% 0 3% 0;
+}
+
+.modal {
+    .tilbageknap {
+        background-color: $darkGrey;
+        @include payment-btn;
+        a {
+            color: $straw;
+            text-decoration: $valuenone;
+        }
+    }
+
+    .betalingsknap {
+        background-color: $straw;
+        @include payment-btn;
+        a {
+            color: $offblack;
+            text-decoration: $valuenone;
+        }
+    }
+}

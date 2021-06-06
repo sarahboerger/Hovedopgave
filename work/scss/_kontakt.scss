@@ -1,0 +1,15 @@
+.adresse {
+    margin: $topBottom5Percent;
+}
+
+.knap {
+    background-color: $straw;
+    font-family: $ptsans;
+    color: $offblack;
+    border: $valuenone;
+     &:hover {
+        background-color: $offblack;
+        color: $straw;
+    }
+   
+}

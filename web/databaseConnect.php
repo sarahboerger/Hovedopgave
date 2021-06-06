@@ -1,6 +1,5 @@
 <?php
-    //$conn = new mysqli('localhost:3306', 'admin', 'admin', 'eng');
-    //Sarah du skal nok ændre i nedenstående så det passer til din localhost, samt lave en database der hedder eng.
+    //$conn = new mysqli('sarasandreasen.dk.mysql:3306', 'sarasandreasen_dkeng', 'engrideskole123', 'sarasandreasen_dkeng');
  $conn = new mysqli('localhost:3306', 'admin', 'admin', 'eng');
 
 

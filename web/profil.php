@@ -5,6 +5,7 @@
     { 
 ?>
 
+
 <!DOCTYPE html>
 <!-- class="h-100" = Vi giver besked på at den skal være 100% i størrelse-->
 <html class="h-100" lang="da">
@@ -12,6 +13,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enggaarden Skolen for Akademisk Ridekunst, er en rideskole der vægter veldfærdet af både rytter og hest højt.">
+  <meta name="keywords" content="Enggaarden,Rideskole,Enggaarden Skolen for Akademisk Ridekunst,Akademisk Ridekunst">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet"
@@ -27,9 +30,23 @@
 <?php include("inc/header.html");?>
 
 <!--Content på siden -->
-<span><h1>Udfyld side om brugerprofil her</h1></span>
+
+<?php include("inc/profilheader.html");?>
+
+<div class="container-fluid">
+
+<div class="row">
+            <div class="col-12">
+                <h2 class="text-center">
+                   Hej telefonnummer <?php
+                        echo "".$_SESSION['username']."";
+                        ?> , velkommen til din Enggaarden profil!</h2>
+<p  class="text-center">På disse sider kan du chatte med andre via vores forum, eller få et indblik i vores undervisningsvideoer.</p>
+            </div>
+        </div>
 
 
+</div>
 <!--Footer include. Footer fil ligger under inc -->
 <?php include 'inc/footer.html';?>
 </body>
@@ -41,3 +58,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha3/js/bootstrap.min.js"></script>
 <!--<script src="../work/javascript/main.js"></script> -->
 </html>
+
+<?php
+    }
+        else 
+    {
+        header("location: login.php");
+    }
+?>

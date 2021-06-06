@@ -4,42 +4,49 @@
   margin: 0;
   padding: 0; }
 
+body {
+  background-image: url("img/background-enggaarden.png"); }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Serif", serif; }
+
+h1 {
+  margin-top: 1%; }
 
 p {
   font-family: pt-sans, sans-serif; }
 
-.navbar {
+#mainNav {
   background-color: #fabf38;
   color: #fefefe; }
-  .navbar a {
+  #mainNav a {
     color: #fefefe; }
-    .navbar a:hover {
+    #mainNav a:hover {
       color: #333333; }
-  .navbar .navbar-brand .logo {
+  #mainNav .navbar-brand .logo {
     width: 18%;
     display: flex;
     float: left; }
-  .navbar .navbar-brand h1 {
+  #mainNav .navbar-brand h1 {
     color: #fefefe;
     font-size: x-large;
     margin-bottom: -0.1%; }
-  .navbar .navbar-brand h2 {
+  #mainNav .navbar-brand h2 {
     color: #fefefe;
     font-size: medium;
-    display: table;
     margin: 0 auto;
     margin-left: 15%; }
-  .navbar .navbar-toggler {
+  #mainNav .navbar-toggler {
     color: #fefefe;
     background-color: #fefefe; }
-    .navbar .navbar-toggler .navbar-toggler-icon {
+    #mainNav .navbar-toggler .navbar-toggler-icon {
       color: #fabf38; }
-      .navbar .navbar-toggler .navbar-toggler-icon .fa-bars {
+      #mainNav .navbar-toggler .navbar-toggler-icon .fa-bars {
         margin-top: 20%; }
-    .navbar .navbar-toggler:focus {
+    #mainNav .navbar-toggler:focus {
       color: #fefefe; }
+  #mainNav .dropdown-menu a {
+    color: #333333; }
 
 .footer {
   background-color: #333333;
@@ -53,3 +60,235 @@ p {
         text-decoration: none; }
         .footer .row ul a:hover {
           color: #fabf38; }
+
+.undervisningsvideo {
+  text-align: center; }
+
+.beskrivelseUnderside {
+  text-align: center; }
+
+.farvetbox {
+  background-color: #EBEAEB;
+  margin-top: 2%;
+  margin: 0.2%; }
+  .farvetbox a {
+    font-size: x-large;
+    padding: 10%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #333333;
+    text-decoration: none; }
+    .farvetbox a:hover {
+      color: #fabf38; }
+  .farvetbox:hover {
+    background-color: #333333; }
+
+.errorMessage {
+  color: red; }
+
+#nyhedsbrev_form .nyhedsbrev_intro {
+  margin-right: 0; }
+  #nyhedsbrev_form .nyhedsbrev_intro h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%; }
+#nyhedsbrev_form .infotekst .nyhedsbrev_infotekst {
+  text-align: center; }
+#nyhedsbrev_form form {
+  display: flex; }
+  #nyhedsbrev_form form .email_input {
+    text-align: right;
+    margin-left: 7%; }
+    #nyhedsbrev_form form .email_input input {
+      font-family: "PT Serif", serif;
+      padding: 2%;
+      width: 60%; }
+  #nyhedsbrev_form form .send_input {
+    text-align: left;
+    margin-left: -7%; }
+    #nyhedsbrev_form form .send_input input {
+      background-color: #fabf38;
+      font-family: "PT Serif", serif;
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+      padding: 2%;
+      padding-bottom: 2.3%;
+      width: 40%; }
+
+.blodtyper-beskrivelse {
+  margin: 5% 0 5% 0; }
+
+.titel {
+  margin: 3% 0 3% 0; }
+
+.modal .tilbageknap {
+  background-color: #444444;
+  padding: 1%;
+  border-radius: 15px;
+  border-style: none; }
+  .modal .tilbageknap a {
+    color: #fabf38;
+    text-decoration: none; }
+.modal .betalingsknap {
+  background-color: #fabf38;
+  padding: 1%;
+  border-radius: 15px;
+  border-style: none; }
+  .modal .betalingsknap a {
+    color: #333333;
+    text-decoration: none; }
+
+.backToForum {
+  margin-bottom: 2%; }
+  .backToForum a {
+    color: #333333; }
+    .backToForum a:hover {
+      color: #fabf38; }
+
+table {
+  margin: 0 auto; }
+
+#sadelguideBox {
+  background-color: #EBEAEB;
+  margin-top: 2%; }
+  #sadelguideBox a {
+    font-size: x-large;
+    padding: 10%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #333333;
+    text-decoration: none; }
+    #sadelguideBox a:hover {
+      color: #fabf38; }
+  #sadelguideBox:hover {
+    background-color: #333333; }
+
+.sidste-vid-row {
+  margin-bottom: 5%; }
+
+.videoRow {
+  max-width: 70%;
+  display: table;
+  margin: 0 auto; }
+
+video {
+  width: 100%;
+  height: auto; }
+
+#formLogin {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2%; }
+  #formLogin .signInButton {
+    font-family: pt-sans, sans-serif;
+    background-color: #fabf38;
+    padding: 0 5% 0 5%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 3%; }
+    #formLogin .signInButton:hover {
+      background-color: #333333;
+      color: #fabf38; }
+
+.signInButton {
+  color: #333333;
+  background-color: #fabf38;
+  padding: 0 1% 0 1%;
+  font-family: pt-sans, sans-serif; }
+
+.backToFront {
+  display: table;
+  margin: 0 auto;
+  font-family: "PT Serif", serif;
+  color: #333333;
+  background-color: #fabf38;
+  padding: 0 1% 0 1%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-radius: 3%;
+  text-decoration: none; }
+  .backToFront:hover {
+    background-color: #333333;
+    color: #fabf38; }
+
+form {
+  text-align: center; }
+  form #sbmbutton {
+    background-color: #fabf38;
+    font-family: "PT Serif", serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    color: #333333;
+    padding: 0 5% 0 5%; }
+    form #sbmbutton:hover {
+      background-color: #333333;
+      color: #fabf38; }
+
+.backToFront {
+  margin-top: 5%; }
+
+.index-text {
+  padding-top: 4%; }
+
+.h3nede {
+  margin-top: 9%; }
+
+#video-row {
+  margin-top: 5%; }
+
+.button {
+  background-color: #fabf38;
+  color: #fefefe;
+  padding: 1%;
+  border: solid 0.1% #f9af06;
+  border-radius: 5%;
+  margin: 3%; }
+
+.newsletter {
+  height: 50%;
+  background-color: #a1a1a1;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center; }
+  .newsletter #mc-embedded-subscribe {
+    color: #333333; }
+
+.velkomst-center {
+  margin: 3% 0 5% 0;
+  font-size: x-large; }
+
+.horse-row {
+  text-align: center; }
+
+.team-content h3 {
+  padding-top: 13%; }
+
+.adresse {
+  margin: 5% 0 5% 0; }
+
+.knap {
+  background-color: #fabf38;
+  font-family: pt-sans, sans-serif;
+  color: #333333;
+  border: none; }
+  .knap:hover {
+    background-color: #333333;
+    color: #fabf38; }
+
+#secondarynav {
+  background-color: #333333; }
+  #secondarynav a {
+    color: #fabf38; }
+    #secondarynav a:hover {
+      color: #fefefe; }

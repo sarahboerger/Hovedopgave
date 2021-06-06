@@ -1,0 +1,14 @@
+.backToForum {
+    margin-bottom: $value2Percent;
+    a {
+        color: $offblack;
+        &:hover {
+            color: $straw;
+        }
+    }
+   
+}
+
+table {
+    @include margin-zero-auto;
+}

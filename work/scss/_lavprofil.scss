@@ -1,0 +1,21 @@
+form {
+    text-align: $placementCenter;
+    #sbmbutton {
+        background-color: $straw;
+        font-family: $ptserif;
+        border-top-style: $valueHidden;
+        border-right-style: $valueHidden;
+        border-left-style: $valueHidden;
+        border-bottom-style: $valueHidden;
+        color: $offblack;
+        padding: $padding5Percent;
+        &:hover {
+            background-color: $offblack;
+            color: $straw;
+        }
+    }
+}
+
+.backToFront {
+    margin-top: $value5Percent;
+}

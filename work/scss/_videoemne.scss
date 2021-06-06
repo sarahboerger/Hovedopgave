@@ -1,0 +1,36 @@
+//Emne side
+
+#sadelguideBox {
+    background-color: $normalGrey;
+    margin-top: $valueTwoPercent;
+    a {
+        font-size: $valueXlarge;
+        padding: $paddingTenPercent;
+        display: $displayBlock;
+        @include margin-zero-auto;
+        text-align: $placementCenter;
+        color: $offblack;
+        text-decoration: $valuenone;
+        &:hover {
+            color: $straw;
+        }
+    }
+    &:hover {
+        background-color: $offblack;
+    }
+}
+
+.sidste-vid-row {
+        margin-bottom: 5%;
+}
+
+//Undersider
+.videoRow {
+    max-width: $value70Percent;
+    display: $displayTable;
+    @include margin-zero-auto;
+}
+video {
+  width: 100%;
+  height: auto;
+}

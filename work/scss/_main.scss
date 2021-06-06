@@ -4,8 +4,16 @@
     padding: $valueZero;
 }
 
+
+ body{
+     background-image: url("img/background-enggaarden.png");
+ }
 h1, h2, h3, h4, h5, h6 {
     font-family: $ptserif;
+}
+
+h1 {
+    margin-top: 1%;
 }
 
 p {
@@ -13,35 +21,32 @@ p {
 }
 
 //Navigation
-.navbar {
+#mainNav {
     background-color: $straw;
     color: $offwhite;
     a {
         color: $offwhite;
-        &:visited {
-            color: $offblack;
-        }
          &:hover {
             color: $offblack;
         }
+    }
 
     .navbar-brand {
        
          .logo {
             width: 18%;
-            display: flex;
-            float: left;
-        }
+            display: $displayFlex;
+            float: $valueLeft;
+            }
         h1 {
             color: $offwhite;
-            font-size: x-large;
+            font-size: $valueXlarge;
             margin-bottom: -0.1%;
         }
         h2 {
             color: $offwhite;
             font-size: medium;
-            display: table;
-            margin: 0 auto;
+            @include margin-zero-auto;
             margin-left: 15%;   
         }
 
@@ -51,18 +56,26 @@ p {
         background-color: $offwhite;
         .navbar-toggler-icon {
            color: $straw; 
+           
            .fa-bars {
                margin-top: 20%;
            }
+
         }
+
         &:focus{
             color: $offwhite;
         }
            
     }
-   
+    .dropdown-menu {
+        a {
+            color: $offblack;
+        }
     }
+   
 }
+
 
 //Footer
 .footer {
@@ -82,3 +95,39 @@ p {
         }
     }
 } 
+
+//Grå bokse til forum og videoemner samt tekst dertil
+.undervisningsvideo {
+    text-align: $placementCenter;
+}
+
+.beskrivelseUnderside {
+    text-align: $placementCenter;
+}
+
+.farvetbox {
+    background-color: $normalGrey;
+     margin-top: $valueTwoPercent;
+     margin: 0.2%;
+    a {
+        font-size: $valueXlarge;
+        padding: $paddingTenPercent;
+        display: $displayBlock;
+        @include margin-zero-auto;
+        text-align: $placementCenter;
+        color: $offblack;
+        text-decoration: $valuenone;
+        &:hover {
+            color: $straw;
+        }
+    }
+    &:hover {
+        background-color: $offblack;
+    }
+}
+
+
+//Form validering
+.errorMessage {
+    color: $colorRed;
+}
